@@ -1,3 +1,65 @@
+body {
+    background-color: #edf4ff;
+}
 .content-wrapper {
     background-color: #edf4ff;
 }
+.main-sidebar  {
+    border-radius: 0rem 1rem 1rem 0rem; 
+    background-color: #ffffff;
+}
+.main-header  {
+    background-color: #edf4ff;
+    border: 0;
+    padding: 2rem 1.75rem;
+}
+
+.main-header .navbar-nav .userprofilesec .userimg {
+    height: 48px;
+    width: 48px;
+    border-radius: 6px;
+    background-color: #da74ff;
+    margin-left: 10px;
+}
+.main-header .navbar-nav .userprofilesec .nav-link .usertitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #1F1F1F;
+}
+.main-header .navbar-nav .userprofilesec .nav-link .usersubtitle {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #1F1F1F;    
+}
+.paginationsection .showitem {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+    text-transform: capitalize;
+}
+.paginationsection .custom-select  {
+    color: #031842;
+}
+.paginationsection .comonpagination .page-link {
+    padding: 0.4rem 0;
+    margin: 3px;
+    border: 0;
+    height: 28px;
+    width: 28px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #1F1F1F;
+}
+
+
+
+
+
