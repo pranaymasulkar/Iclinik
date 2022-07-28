@@ -30,6 +30,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- summernote -->
   <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
   <!-- Custom Css By Pranay Masulkar -->
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
   <link rel="stylesheet" href="dist/css/generic.css">
   <link rel="stylesheet" href="dist/css/custom.css">
 </head>
@@ -40,7 +43,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <nav class="main-header navbar navbar-expand">
     <div class="form-inline w-50">
       <div class="input-group w-75" data-widget="sidebar-search">
-        <input class="form-control form-control-sidebar border-0" type="search" placeholder="Search by patient or doctors " aria-label="Search by patient or doctors ">
+        <input class="form-control form-control-sidebar border-0 fs-14 fw-400 font-Poppins" type="search" placeholder="Search by patient or doctors " aria-label="Search by patient or doctors ">
         <div class="input-group-append">
           <button class="btn btn-primary">
             <i class="fas fa-search fa-fw"></i>
@@ -56,8 +59,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <li class="nav-item dropdown userprofilesec">
         <a class="nav-link d-flex align-items-center" data-toggle="dropdown" href="#">
           <div>
-            <p class="usertitle mb-0 text-right text-capitalize">pranay masulkar</p>
-            <p class="usersubtitle mb-0 text-right text-capitalize">Tele Cryptor</p>
+            <p class="usertitle mb-0 font-Poppins fs-16 fw-400 text-right text-capitalize">pranay masulkar</p>
+            <p class="usersubtitle mb-0 font-Poppins fs-12 text-right text-capitalize">Tele Cryptor</p>
           </div>
           <div>
           <img class="userimg" src="dist/img/user7-128x128.jpg" alt="User Image">

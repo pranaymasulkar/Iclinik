@@ -35,14 +35,7 @@ body {
     letter-spacing: 0em;
     color: #1F1F1F;    
 }
-.paginationsection .showitem {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    text-align: left;
-    color: #000000;
-    text-transform: capitalize;
-}
+
 .paginationsection .custom-select  {
     color: #031842;
 }
@@ -56,10 +49,23 @@ body {
     font-size: 12px;
     font-weight: 500;
     text-align: center;
+    font-family: 'Inter';
     color: #1F1F1F;
 }
+.patients-profilesec .puser-img {
+    height: 80px;
+    width: 80px;
+    background-color: #da74ff;
+}
 
-
-
+.patients-profilesec .prop-conect .nav .nav-item .nav-link {
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 7px 5px;
+    text-align: center;
+    background-color: #0051CA;
+}
 
 

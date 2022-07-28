@@ -1,13 +1,34 @@
+body {
+    font-family: 'Poppins';
+}
 .text-tangaroa {
     color: #031842;
 }
 .text-science-blue {
     color: #0051CA;
 }
-
+.text-mine-shaft {
+    color: #1F1F1F;
+}
+.text-dodger-blue {
+    color: #5887FF;
+}
+.text-black {
+    color: #000000;
+}
+.text-tangaroa {
+    color: #031842;
+}
+/* ============================================== Background Colors ===================================================== */
 .bg-main-lite {
     background-color: #F5FBFF;
 }
+.bg-transparent {
+    background-color: transparent;
+}
+
+/* ============================================== Font Sizes ===================================================== */
+
 .fs-10 {
     font-size: 10px;
 }
@@ -57,7 +78,15 @@
     font-size: 28px;
 }
 
-
+.font-Poppins {
+    font-family: 'Poppins';
+}
+.font-DMSans {
+    font-family: 'DM Sans';
+}
+.font-Inter {
+    font-family: 'Inter';
+}
 
 .fw-100 {
     font-weight: 100;
