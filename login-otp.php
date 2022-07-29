@@ -49,33 +49,26 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <div class="col-12 col-md-7 d-flex justify-content-center align-items-start p-5 bg-white">
                 <div class="row w-75">
                     <div class="col-12 text-right">
-                        <button class="btn btn-primary">Log In</button>
-                    </div>    
-                    <div class="col-12">
-                        <div class="card w-100 border-0 shadow-none">
-                            <div class="card-header text-center border-0">
-                                <h1 class="font-Poppins fs-21 fw-400 text-black">Welcome to <a href="#" class="fw-700 text-science-blue">iClinik</a></h1>
-                                <p class="font-Poppins fs-32 fw-500 text-mine-shaft">Sign In</p>
+                        <button class="btn btn-primary">Sign Up</button>
+                    </div>   
+                    <div class="col-12 pt-5">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <p>Please enter the One-Time Password to Verify your account</p>
+                                <p>A One Time Password has been sent to 99*****5564</p>
                             </div>
-                            <!-- /.card-header -->
-                            <!-- form start -->
-                            <form id="quickForm">
-                                <div class="card-body">
-                                    <div class="form-group">
-                                        <label >Registration ID</label>
-                                        <input type="text" name="text" class="form-control" placeholder="Enter your registration ID">
-                                    </div>
-                                    <div class="text-center pb-5">
-                                        <a href="#">Forget your Registration ID</a>
-                                    </div>
-                                    <div class="form-group">
-                                        <button  class="btn btn-primary btn-block btn-lg">Continue</button>
-                                    </div>
-                                    <div class="text-center pt-4">
-                                        <p>Don’t have an acount? <a href="#">Sign up</a></p>
-                                    </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label >OTP</label>
+                                    <input type="text" name="text" class="form-control" placeholder="Enter your otp">
                                 </div>
-                            </form>
+                                <div class="text-center py-4">
+                                    <a href="#">Resend</a>
+                                </div>
+                                <div class="form-group">
+                                    <button  class="btn btn-primary btn-block btn-lg">Login</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

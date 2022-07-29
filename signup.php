@@ -47,32 +47,67 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <img src="dist/img/loginbanner.png" class="img-fluid w-100" alt="">
             </div>
             <div class="col-12 col-md-7 d-flex justify-content-center align-items-start p-5 bg-white">
-                <div class="row w-75">
+                <div class="row">
                     <div class="col-12 text-right">
                         <button class="btn btn-primary">Log In</button>
                     </div>    
                     <div class="col-12">
-                        <div class="card w-100 border-0 shadow-none">
+                        <div class="card w-100 p-5 border-0 shadow-none">
                             <div class="card-header text-center border-0">
                                 <h1 class="font-Poppins fs-21 fw-400 text-black">Welcome to <a href="#" class="fw-700 text-science-blue">iClinik</a></h1>
-                                <p class="font-Poppins fs-32 fw-500 text-mine-shaft">Sign In</p>
+                                <p class="font-Poppins fs-32 fw-500 text-mine-shaft">Sign Up</p>
                             </div>
                             <!-- /.card-header -->
                             <!-- form start -->
                             <form id="quickForm">
-                                <div class="card-body">
+                                <div class="card-body p-5">
                                     <div class="form-group">
-                                        <label >Registration ID</label>
-                                        <input type="text" name="text" class="form-control" placeholder="Enter your registration ID">
-                                    </div>
-                                    <div class="text-center pb-5">
-                                        <a href="#">Forget your Registration ID</a>
+                                        <label >Full Name</label>
+                                        <input type="text" name="text" class="form-control" placeholder="Enter your profile name">
                                     </div>
                                     <div class="form-group">
-                                        <button  class="btn btn-primary btn-block btn-lg">Continue</button>
+                                        <label >Email</label>
+                                        <input type="text" name="text" class="form-control" placeholder="Enter your email address">
                                     </div>
-                                    <div class="text-center pt-4">
-                                        <p>Don’t have an acount? <a href="#">Sign up</a></p>
+                                    <div class="form-group">
+                                        <label >Address</label>
+                                        <input type="text" name="text" class="form-control" placeholder="Enter your full address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Qualification</label>
+                                        <select class="form-control select2" style="width: 100%;">
+                                            <option selected="selected">Select your higher qualification</option>
+                                            <option>Alaska</option>
+                                            <option>California</option>
+                                            <option>Delaware</option>
+                                            <option>Tennessee</option>
+                                            <option>Texas</option>
+                                            <option>Washington</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mb-0">Qualification</label>
+                                        <input type="text" name="text" class="form-control" placeholder="Select your higher qualification">
+                                    </div>
+                                    <div class="form-group">
+                                        <label >Adhaar Card</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <button  class="btn btn-primary">Upload Photograph</button>
+                                    </div>
+                                    <div class="form-group">
+                                        <label >Adhaar Card</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <button  class="btn btn-primary">Upload Photograph</button>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> By creating an account, you agree to the Terms of use and Privacy Policy. 
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <button  class="btn btn-primary btn-block btn-lg">Sign up</button>
                                     </div>
                                 </div>
                             </form>
